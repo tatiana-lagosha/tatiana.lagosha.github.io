@@ -657,7 +657,7 @@ footer {
 	display: none;
 	position: fixed;
 	bottom:1%;
-	left: 52%;
+	right: 90px;
 	border: none;
 	outline: none;
 	background-color: #333;
@@ -674,3 +674,23 @@ footer {
 	background-color: #555;
 }
 
+.scroll_down_btn{
+	display: block;
+	position: fixed;
+	bottom:1%;
+	right: 20px;
+	border: none;
+	outline: none;
+	background-color: #333;
+	color: white;
+	cursor: pointer;
+	border-radius: 10%;
+	font-size: 20px;
+	width: 60px;
+	height: 40px;
+	opacity: 0.5;
+}
+
+.scroll_down_btn:hover {
+	background-color: #555;
+}
