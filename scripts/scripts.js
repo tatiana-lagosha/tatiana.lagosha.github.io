@@ -29,18 +29,30 @@ var buttons = document.querySelectorAll(".nav_connect_btn");
 
 // Добавить обработчик событий для каждой кнопки
 buttons.forEach(function(button) {
-    button.addEventListener("click", function() {
-        document.getElementById("contact_section").scrollIntoView({ behavior: 'smooth' });
-    });
+	button.addEventListener("click", function() {
+		document.getElementById("contact_section").scrollIntoView({ behavior: 'smooth' });
+	});
 });
 
 //Функция кнопки прокрутки вверх
 function scroll_up() {
-	const scroll_up_btn_left = document.getElementById("scroll_up_btn");
+	const scroll_up_btn = document.getElementById("scroll_up_btn");
 	if (document.documentElement.scrollTop > 0) {
 		window.scroll({ top: 0, left: 0, behavior: 'smooth' });
 	} else {
 		scroll_up_btn.scrollIntoView({ behavior: 'smooth' });
+	}
+}
+
+function scroll_down() {
+	const windowHeight = window.innerHeight;
+	const bodyHeight = document.body.scrollHeight;
+	const scrollPosition = window.scrollY || window.pageYOffset || document.documentElement.scrollTop;
+
+	if ((windowHeight + scrollPosition) < bodyHeight) {
+		window.scroll({ top: bodyHeight, left: 0, behavior: 'smooth' });
+	} else {
+		window.scroll({ top: document.body.scrollHeight, left: 0, behavior: 'smooth' });
 	}
 }
 
@@ -49,10 +61,20 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
 	const scroll_up_btn = document.getElementById("scroll_up_btn");
+	const scroll_down_btn = document.getElementById("scroll_down_btn");
+	const windowHeight = window.innerHeight;
+    const bodyHeight = document.body.scrollHeight;
+	
 	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
 		scroll_up_btn.style.display = "block";
 	} else {
 		scroll_up_btn.style.display = "none";
+	}
+	
+	if ((windowHeight + window.scrollY) < bodyHeight - 20) {
+		scroll_down_btn.style.display = "block";
+	} else {
+		scroll_down_btn.style.display = "none";
 	}
 }
 
