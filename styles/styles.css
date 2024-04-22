@@ -1,17 +1,18 @@
 
+@font-face {
+	font-family: NameFont; /* Название вашего шрифта */
+	src: url('fonts/Tornadomediumc.otf'); /* Относительный путь к вашему шрифту */
+}
+
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'NameFont', sans-serif;
+	/*font-family: Arial, sans-serif;*/ /*Стандартный шрифт*/
 	width: 100vw; /* Ширина равна 100% ширины экрана */
 	height: 100vh; /* Высота равна 100% высоты экрана */
 	position: relative;
 	margin: 0; /* Убираем отступы, чтобы документ заполнил экран полностью */
 	padding: 0; 
 	background-color: rgba(190, 200, 165, 1.0);
-}
-
-@font-face {
-    font-family: NameFont; /* Название вашего шрифта */
-    src: url('fonts/Zametka_Parletter.otf'); /* Относительный путь к вашему шрифту */
 }
 
 .all_bg{
@@ -259,7 +260,6 @@ header {
 
 .couching_text_container{
 	display: flex; /* Расположить элементы в строку */
-	align-items: center; /* Выравнивание элементов по вертикали */
 	justify-content: center;
 	margin-bottom: 10px;
 	margin-top: 15px;
