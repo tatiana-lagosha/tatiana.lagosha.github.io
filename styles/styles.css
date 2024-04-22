@@ -16,11 +16,7 @@ body {
 
 .all_bg{
 	background-color: rgba(190, 200, 165, 1.0);
-	/*background-image: url("img/all_bg.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
 	overflow: hidden;
-	/*background-position: center; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 }
 
 header {
@@ -32,11 +28,6 @@ header {
 
 .head_bg{
 	background-color: rgba(255, 113, 180, 0.6);
-	/*background-image: url("img/inf_block.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: center; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 20px; 
 	width: 360px;
 	height: 320px;
@@ -52,8 +43,6 @@ header {
 	justify-content: center;
 	margin-bottom: 10px;
 	margin-top: 15px;
-	/*background-color: rgba(248, 230, 243, 0.3);
-	border-radius: 10px;*/
 }
 
 .avatar {
@@ -63,7 +52,6 @@ header {
 	width: 180px; /* Задайте желаемую ширину */
 	height: 200px; /* Задайте желаемую высоту */
 	border-radius: 10%; /* Сделайте аватарку круглой */
-	/*border: 1px solid black; /* Добавьте границу */
 	margin-top: 0px;
 	margin-left: 0px;
 	margin-right: 0px;
@@ -71,7 +59,6 @@ header {
 }
 
 .name {
-	/*background-color: #fff;*/
 	margin-right: 10px;
 	color: #222d10;
 	font-size: 32px;
@@ -81,8 +68,6 @@ header {
 }
 
 .dealing_section{
-	/*background-color: rgba(248, 230, 243, 0.3);
-	border-radius: 10px;*/
 	display: flex;
 	justify-content: left;
 	align-items: center;
@@ -101,7 +86,6 @@ header {
 }
 
 .menu_section{
-	/*background-color: #fff;*/
 	justify-content: center;
 	display: flex; /* Выравнивание кнопок по центру */
 	list-style-type: none;
@@ -144,11 +128,6 @@ header {
 
 .about_me_bg{
 	background-color: rgba(214, 50, 119, 0.8);
-	/*background-image: url("img/about.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: center; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 10px; 
 	width: 95%;
 	height: 100%;
@@ -160,8 +139,6 @@ header {
 .about_me_container{
 	margin-left: auto;
 	margin-right: auto;
-	/*background-color: rgba(255, 192, 219, 0.5);
-	border-radius: 5px;*/
 	width: 90%;
 }
 
@@ -191,11 +168,6 @@ header {
 
 .portfolio_bg{
 	background-color: rgba(192, 51, 110, 1.0);
-	/*background-image: url("img/portfolio.webp");*/ 
-	/*background-size: cover; Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;*/ 
-	/*background-position: bottom;Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*//**/ 
 	border-radius: 5px;
 	width: 95%;
 	height: 100%;
@@ -207,8 +179,6 @@ header {
 .portfolio_container{
 	margin-left: auto;
 	margin-right: auto;
-	/*background-color: rgba(255, 192, 219, 0.5);
-	border-radius: 5px;*/
 	width: 90%;
 }
 
@@ -261,16 +231,9 @@ header {
 
 .couching_bg{
 	background-color: rgba(165, 55, 101, 1.0);
-	/*background-image: url("img/portfolio.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: bottom; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 10px; 
 	width: 95%;
 	height: 100%;
-	/*width: 330px;
-	height: 320px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:5px;
@@ -279,8 +242,6 @@ header {
 .couching_container{
 	margin-left: auto;
 	margin-right: auto;
-	/*background-color: rgba(255, 192, 219, 0.5);
-	border-radius: 5px;*/
 	width: 90%;
 }
 
@@ -333,11 +294,6 @@ header {
 
 .psychologia_bg{
 	background-color: rgba(145, 53, 92, 1.0);
-	/*background-image: url("img/portfolio.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: bottom; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 10px; 
 	width: 97%;
 	height: 100%;
@@ -365,7 +321,6 @@ header {
 }
 
 .psychologia_text_container{
-	/*background-color:#000;*/
 	display: flex; /* Расположить элементы в строку */
 	justify-content: center;
 	margin-bottom: 10px;
@@ -448,16 +403,9 @@ header {
 
 .tochka-opory_bg{
 	background-color: rgba(136, 56, 90, 1.0);
-	/*background-image: url("img/portfolio.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: bottom; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 10px; 
 	width: 95%;
 	height: 100%;
-	/*width: 330px;
-	height: 320px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top:5px;
@@ -466,8 +414,6 @@ header {
 .tochka-opory_container{
 	margin-left: auto;
 	margin-right: auto;
-	/*background-color: rgba(255, 192, 219, 0.5);
-	border-radius: 5px;*/
 	width: 90%;
 }
 
@@ -525,11 +471,6 @@ header {
 
 .contact_bg{
 	background-color: rgba(126, 64, 90, 1.0);
-	/*background-image: url("img/contacts.webp");
-	background-size: cover; /* Адаптирует изображение к размерам элемента */
-	/*overflow: hidden;
-	background-position: center; /* Выравнивает изображение по центру */
-	/*background-repeat: no-repeat;*/
 	border-radius: 10px; 
 	width: 700px;
 	margin-left: 2%;
@@ -541,8 +482,6 @@ header {
 	padding-top: 5px;
 	width: 350px;
 	height: 120px;
-	/*background-color: rgba(255, 255, 255, 0.3);
-	border-radius: 5px;*/
 	margin-left: auto;
 	margin-right: auto;
 	margin-top: 40px;
@@ -602,7 +541,6 @@ header {
 	width: 40px; /* Задайте желаемую ширину */
 	height: 40px; /* Задайте желаемую высоту */
 	border-radius: 10%; /* Сделайте аватарку круглой */
-	/*border: 1px solid black; /* Добавьте границу */
 	margin-top: 0px;
 	margin-left: 10px;
 	margin-right: auto;
@@ -631,7 +569,6 @@ header {
 	width: 60px; /* Задайте желаемую ширину */
 	height: 40px; /* Задайте желаемую высоту */
 	border-radius: 10%; /* Сделайте аватарку круглой */
-	/*border: 1px solid black; /* Добавьте границу */
 	margin-top: 0px;
 	margin-left: 10px;
 	margin-right: auto;
