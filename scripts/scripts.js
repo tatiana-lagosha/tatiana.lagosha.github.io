@@ -127,7 +127,6 @@ function fadeIn(element) {
 const observer = new IntersectionObserver(entries => {
 	entries.forEach(entry => {
 		if (entry.isIntersecting) {
-			// Если элемент видим, запускаем соответствующую анимацию
 			if (entry.target.id === 'avatar') {
 				slideInFromRight(entry.target);
 			} else if (entry.target.id === 'name') {
@@ -141,32 +140,26 @@ const observer = new IntersectionObserver(entries => {
 	});
 });
 
-// Наблюдаем за всеми элементами
+// Наблюдаем за всеми элементами для анимации
 document.querySelectorAll('#name, #avatar, #dealing, #about_me_container, #portfolio_container,#couching_container, #psychologia_container, #tochka-opory_container, #contact_section').forEach(element => {
 	observer.observe(element);
 });
 
 //Функция перехода на сайт Точка опоры!
 var button = document.getElementById('tochka-opory_btn');
-	// Добавляем обработчик события клика
 	button.addEventListener('click', function() {
-		// Перенаправляем пользователя на другой сайт
 		window.location.href = 'https://tochkaopory.minisite.ai/';
 	});
 	
 	
 //Функция перехода на Телеграм канал!	
 var button = document.getElementById('telegram_channel_btn');
-	// Добавляем обработчик события клика
 	button.addEventListener('click', function() {
-		// Перенаправляем пользователя на другой сайт
 		window.location.href = 'https://t.me/wwFEF3pDseZmOGJk';
 	});    
 	
 //Функция перехода на IPACT сайт!	
 var button = document.getElementById('ipact_btn');
-	// Добавляем обработчик события клика
 	button.addEventListener('click', function() {
-		// Перенаправляем пользователя на другой сайт
 		window.location.href = 'https://platform.ipactcoach.com/coaches/logosa';
 	});    
